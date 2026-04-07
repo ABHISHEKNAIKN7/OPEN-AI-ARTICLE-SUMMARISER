@@ -1,0 +1,27 @@
+.url_input {
+  @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 pl-10 pr-12 text-sm shadow-lg font-satoshi focus:border-2 focus:border-gray-700 focus:outline-none;
+}
+
+.submit_btn {
+  @apply hover:border-gray-700 focus:border-gray-700 absolute right-0 my-2 mr-3 md:mr-4 md:w-12 md:h-12 rounded-full bg-white p-2 transition-all flex justify-center items-center cursor-pointer;
+}
+
+.link_card {
+  @apply p-3 flex gap-3 bg-white rounded-lg shadow-md cursor-pointer transform transition;
+}
+
+.link_card:hover {
+  @apply shadow-lg;
+}
+
+.copy_btn {
+  @apply w-10 h-10 rounded-full bg-white/10 shadow-[inset_10px_-50px_100px_-20px_rgba(255,0,0,0.2)] p-2 backdrop-blur flex justify-center items-center cursor-pointer;
+}
+
+.copy_btn:active {
+  @apply scale-95;
+}
+
+.summary_box {
+  @apply rounded-xl border border-gray-200 bg-white/20 p-4 backdrop-blur font-light text-gray-700 sm:max-w-3xl max-w-full mx-auto;
+}

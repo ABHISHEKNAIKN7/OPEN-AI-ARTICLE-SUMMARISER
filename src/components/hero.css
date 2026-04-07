@@ -1,0 +1,23 @@
+.head_text {
+  margin-top: 28px;
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: #000;
+}
+
+.orange_gradient {
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.desc {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  color: #565e7c;
+  max-width: 500px;
+  text-align: center;
+  line-height: 1.6;
+}

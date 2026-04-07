@@ -1,0 +1,3 @@
+footer {
+  @apply flex flex-col pt-10 w-full;
+}
